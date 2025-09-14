@@ -4,9 +4,11 @@ inventory = []
 
 rooms = {
     "Hall": {
+        "id": 1,
         "south": "Common Area"
     },
     "Common Area": {
+        "id": 2,
         "north": "Hall",
         "item": "card",
         "itemType": "access"
@@ -14,6 +16,9 @@ rooms = {
 } 
 
 print("You are in the " + currentRoom)
+
+def startGame():
+
 
 def showInstructions():
     print("CRISIUM GAME")
