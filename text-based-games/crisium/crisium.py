@@ -19,7 +19,6 @@ print("You are in the " + currentRoom)
 
 def startGame():
 
-
 def showInstructions():
     print("CRISIUM GAME")
     print("==============")
