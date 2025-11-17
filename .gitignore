@@ -15,3 +15,53 @@ __pycache__/
 .env
 .venv/
 
+# Netbeans IDE 
+nbproject/private/
+nbproject/private/
+
+# Automatic generated files
+nbproject/*-impl.xml
+
+# Build output
+build/
+dist/
+
+# IDE temp files
+nbbuild/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+# Directorios de compilación
+out/
+target/
+*.class
+
+# Archivos generados por el JAR
+*.jar
+*.war
+*.ear
+*.zip
+
+# Logs y dumps
+*.log
+
+##############################
+# C/C++ (NetBeans)
+##############################
+
+# Output folder
+build/
+dist/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+nbproject/Subprojects
+nbproject/Configurations.xml
+
+# Compiled C/C++
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
